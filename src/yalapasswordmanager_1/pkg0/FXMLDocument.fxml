@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: 06242E;" xmlns="http://javafx.com/javafx/8.0.131" xmlns:fx="http://javafx.com/fxml/1" fx:controller="yalapasswordmanager_1.pkg0.FXMLDocumentController">
+   <children>
+      <Pane prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: 92E2FC;">
+         <children>
+            <JFXTextField fx:id="username_txt" layoutX="423.0" layoutY="121.0" maxHeight="40.0" maxWidth="230.0" minHeight="40.0" minWidth="230.0" prefHeight="40.0" prefWidth="230.0" promptText="Username" />
+            <JFXButton fx:id="login_btn" layoutX="443.0" layoutY="283.0" maxHeight="35.0" maxWidth="80.0" minHeight="35.0" minWidth="80.0" onAction="#login_action" prefHeight="35.0" prefWidth="80.0" style="-fx-background-color: #dce0d7;" text="Login" />
+            <JFXButton fx:id="signup_btn" layoutX="556.0" layoutY="283.0" maxHeight="35.0" maxWidth="80.0" minHeight="35.0" minWidth="80.0" onAction="#signup_action" prefHeight="35.0" prefWidth="80.0" style="-fx-background-color: #dce0d7;" text="Signup" />
+            <JFXPasswordField fx:id="mpassword0_pf" layoutX="423.0" layoutY="171.0" maxHeight="40.0" maxWidth="230.0" minHeight="40.0" minWidth="230.0" prefHeight="40.0" prefWidth="230.0" promptText="Password" />
+            <JFXPasswordField fx:id="mpassword1_pf" layoutX="423.0" layoutY="221.0" maxHeight="40.0" maxWidth="230.0" minHeight="40.0" minWidth="230.0" prefHeight="40.0" prefWidth="230.0" promptText="Re-enter Password" />
+            <Text fx:id="text" layoutX="38.0" layoutY="200.0" onMouseClicked="#about" strokeType="OUTSIDE" strokeWidth="0.0" text="Yala Password Manager">
+               <font>
+                  <Font name="Comfortaa" size="30.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

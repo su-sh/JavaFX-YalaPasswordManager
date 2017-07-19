@@ -114,7 +114,6 @@ public class HomeController implements Initializable {
     }
 
     private void setTable() {
-
         col_account.setCellValueFactory(new PropertyValueFactory<>("account"));
         col_email.setCellValueFactory(new PropertyValueFactory<>("email"));
         col_username.setCellValueFactory(new PropertyValueFactory<>("username"));
@@ -205,7 +204,8 @@ public class HomeController implements Initializable {
             a.setContentText("Please fill username and password.");
             a.setHeaderText("");
             a.showAndWait();
-        }/*
+        }
+        /*
         UserDao ud = new UserDao();
         User u = new User();
         u.setM_id(master.getId());
@@ -336,4 +336,5 @@ public class HomeController implements Initializable {
         fadeout.setToValue(0.0);
         fadeout.play();
     }
+
 }
